@@ -2,8 +2,12 @@ use_frameworks!
 
 platform :ios, '9.0'
 
+# xcodeproj 'ZFFLisaDemo.xcodeproj'
+
 target 'ZFFLisaDemo_Example' do
-  pod 'ZFFLisaDemo', :path => '../'
+
+#target 'ZFFLisaDemo' do
+  #pod 'ZFFLisaDemo', :path => '../'
 
   target 'ZFFLisaDemo_Tests' do
     inherit! :search_paths
