@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZFFLisaDemo_Example' do
+  pod 'ZFFLisaDemo', :path => '../'
+
+  target 'ZFFLisaDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
